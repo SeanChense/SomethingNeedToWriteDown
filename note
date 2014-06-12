@@ -1,0 +1,2 @@
+1.设置点击键盘
+	1）实现delegate方法中的textFieldShouldReturn方法，并且找个地方把输入框设置代理：TextField.delegate = self;并且为了改变键盘的回车样式：self.TextField.returnKeyType = UIReturnKeyNext;
