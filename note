@@ -3,3 +3,12 @@
 2.设置输入框监听事件	
 	1）Editing Changed 是可以时时追踪
 	2）Editing Did End 是监听离开焦点
+3.设置 indicator
+	1）在代码
+		 [self.view addSubview:spinner];
+	   代码中并看不到内容，反而是把代码变成
+	    	 [self.view.subviews[0] addSubview:spinner];
+	   才能从界面中看到效果,或者要
+		 [self.view.windows addSubview:spinner];
+	   能看到效果
+
