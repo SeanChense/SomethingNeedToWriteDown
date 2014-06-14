@@ -11,4 +11,7 @@
 	   才能从界面中看到效果,或者要
 		 [self.view.windows addSubview:spinner];
 	   能看到效果
-
+4.在 prepareForSegue 中给下一个 ViewController 中的属性赋值时使用
+		 vc.Label.text = @"dd"; 是不行的，只能
+		 vc.String = @"dd";
+		 self.Label.text = self.String;才可以。
