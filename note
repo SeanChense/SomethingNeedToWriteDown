@@ -15,3 +15,6 @@
 		 vc.Label.text = @"dd"; 是不行的，只能
 		 vc.String = @"dd";
 		 self.Label.text = self.String;才可以。
+5.把 Segue 连在 viewcontroller 上，使用
+		[self performSegueWithIdentifier:@"My Segue"];
+  可以触发指定 Segue
