@@ -18,3 +18,4 @@
 5.把 Segue 连在 viewcontroller 上，使用
 		[self performSegueWithIdentifier:@"My Segue"];
   可以触发指定 Segue
+6.Segue 不能连接到 navigation 上面去，会报错。
