@@ -21,3 +21,16 @@
 6.Segue 不能连接到 navigation 上面去，会报错。
 7.git remote -v 可以查看仓库信息。
 8.在 NSDictionary 的拼装过程中，如果中途有某个参数为 nil 的话拼装会提前终止。
+9.在 navigation bar 中设置一个搜索框
+	[self.navigationItem setTitleView:searchbar];
+10.由于 UISearchBar 在 CODE 中生成出来时是没有办法直接设置 cliearbutton 的，只能曲线救国。
+	//set clear button for UISeachBar
+    for (UIView* v in searchbar.subviews)
+    {
+        if ([v isKindOfClass:[UITextField class]]) {
+            UITextField* tf = (UITextField*)v;
+            tf.delegate = self;
+            tf.clearButtonMode = UITextFieldViewModeAlways;
+            break;
+        }
+    }
