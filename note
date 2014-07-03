@@ -34,3 +34,4 @@
             break;
         }
     }
+11.从 navigationbar 到一个新的 viewcontroller 的连接不是普通的 segue 而是 rootview，这样才不会跳出一个黑屏幕。
