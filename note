@@ -35,3 +35,5 @@
         }
     }
 11.从 navigationbar 到一个新的 viewcontroller 的连接不是普通的 segue 而是 rootview，这样才不会跳出一个黑屏幕。
+12.十分重要！！！！！
+   在给 tableviewcell 指定相应的指定 cell 子类时，也要把 storyboard 上的控件和 cell.h 文件中的 property 相连接。
