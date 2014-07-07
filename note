@@ -45,3 +45,6 @@
 14.在 navigationbar 上的两边设置多个 UIBarButtonItem 可以
 	self.navigationItem.rightBarButtonItems = @[btn_1,btn_2];
 注意这里有个 s 。
+15.NSJSONSerialization returns immutable objects by default.So you need get the result like this:
+	[resultData mutableCopy];
+16.在做删除列表 cell 的过程中，要注意先删除数据源再动画。不然会有很多错。
