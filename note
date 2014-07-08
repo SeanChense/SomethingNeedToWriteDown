@@ -48,3 +48,16 @@
 15.NSJSONSerialization returns immutable objects by default.So you need get the result like this:
 	[resultData mutableCopy];
 16.在做删除列表 cell 的过程中，要注意先删除数据源再动画。不然会有很多错。
+17.在使用 MBProgress 的时候遇到 uitableview 会出现 cell lines 划过黑色背景的情况。解决办法就是在展示 MBP 的时候把分割线隐藏起来
+	 [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+等到 MBP 展示完成就把分割线还原回来。
+	[self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleSingleLine];
+18.在使用动画操作
+	 [UIView animateWithDuration:1.0
+                                  delay:0.0
+                                options:UIViewAnimationOptionCurveEaseInOut
+                             animations:^{
+                                 [self.viewHolder setFrame:rectForAnimationAfter];
+                             }
+                             completion:nil];
+的时候 相应的布局界面是设置的 autolayout 这样是不被允许操作 frame 的。所以可能会看不到效果或者效果出来了，马上就还原回去了。所以把 autolayout 取消掉。
