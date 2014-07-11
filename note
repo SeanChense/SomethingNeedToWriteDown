@@ -61,3 +61,21 @@
                              }
                              completion:nil];
 的时候 相应的布局界面是设置的 autolayout 这样是不被允许操作 frame 的。所以可能会看不到效果或者效果出来了，马上就还原回去了。所以把 autolayout 取消掉。
+19.动态的 tableview 中的 cell 的高度不是能通过 storyboard 直接指定的，可能这是个苹果的 bug 在 heightForRowAtIndexPath 函数里执行	
+	static NSString* cellForIdentifier;
+    	if (indexPath.section == 0)
+   	 {
+        if (indexPath.row ==0)
+            cellForIdentifier = @"firstCell";
+        else
+            cellForIdentifier = @"secondCell";
+    	}
+    	else
+    	{
+     		cellForIdentifier = @"secondCell";
+    	}
+    	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellForIdentifier];
+    	return cell.bounds.size.height;
+do the trick to adjust cell height.
+20.每一个 section 里的 row 都是从 0 开始重新计数的，可以看作是二维数组。
+21.
