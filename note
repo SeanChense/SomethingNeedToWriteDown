@@ -78,4 +78,7 @@
     	return cell.bounds.size.height;
 do the trick to adjust cell height.
 20.每一个 section 里的 row 都是从 0 开始重新计数的，可以看作是二维数组。
-21.
+21.用代码设置 button 的文字时，会发现 btn.titleLabel 中的文字没办法填满 button
+	btn.titleLabel.adjustFontSizeToFitWidth = YES;
+22.代码生成的 tableView 在 init 的时候选择了 style 为 grouped cell 与 tableview 之间就会有留空。
+
