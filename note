@@ -81,4 +81,142 @@ do the trick to adjust cell height.
 21.用代码设置 button 的文字时，会发现 btn.titleLabel 中的文字没办法填满 button
 	btn.titleLabel.adjustFontSizeToFitWidth = YES;
 22.代码生成的 tableView 在 init 的时候选择了 style 为 grouped cell 与 tableview 之间就会有留空。
-
+23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回23.做到跟微信修改昵称一样的界面弹跳出来+navigation 的效果，需要
+	ChangeNickNameViewController* cnnVC = [story instantiateViewControllerWithIdentifier:@"ChangeNickName"];
+            UINavigationController* mNavigation = [[UINavigationController alloc] initWithRootViewController:cnnVC];
+            cnnVC.oldNickName = [WeshareSingleton weshareSingleton].nickname;
+            [self.navigationController presentViewController:mNavigation animated:YES completion:nil];
+其中 cnnVC.oldNickName 赋值的语句是用 present 方式页面跳转传递值
+24. 在使用了 presentView 之后使用 dismissview 可以返回
