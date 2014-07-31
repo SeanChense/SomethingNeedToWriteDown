@@ -224,3 +224,12 @@ do the trick to adjust cell height.
 	-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 会无法识别动作是来自哪个 alert 发出来的。alert.tag = Integer 是个好东西。
 可以在函数里做一个 switch 判断。
+26.判断某个字符串 A 是否包含字符串 B 
+	[A rangeOfString:B].location !=NSNotFound
+27.得到当前 UIWebView 所展现页面的 URL 实现 UIWebViewDelegate 委托方法
+	-(void)webViewDidFinishLoad:(UIWebView *)webView
+	{
+  		 currentUrlStr = _webView.request.mainDocumentURL.absoluteString;
+    
+	}
+	
