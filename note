@@ -105,4 +105,6 @@ do the trick to adjust cell height.
   		 currentUrlStr = _webView.request.mainDocumentURL.absoluteString;
     
 	}
+28. 使用 SDWerbImage 进行图片的缓存
+	[[SDImageCache sharedImageCache] storeImage:image forKey:@"key"];
 	
