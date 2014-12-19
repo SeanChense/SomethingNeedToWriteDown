@@ -107,4 +107,4 @@ do the trick to adjust cell height.
 	}
 28. 使用 SDWerbImage 进行图片的缓存
 	[[SDImageCache sharedImageCache] storeImage:image forKey:@"key"];
-	
+29. tableView 动态加载网络上的资源时，数据下载回来要 reload 一下	
