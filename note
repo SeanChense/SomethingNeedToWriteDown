@@ -109,3 +109,7 @@ do the trick to adjust cell height.
 	[[SDImageCache sharedImageCache] storeImage:image forKey:@"key"];
 29. tableView 动态加载网络上的资源时，数据下载回来要 reload 一下	
 30. [__NSCFNumber length] 从字典中出数据出现这个问题，说明想要发送一个 NSString 的对象，但是取出来的其实是 NSNumber
+31. NSURLSessionDataTask 得到 http 的 statusCode
+	[(NSHTTPURLResponse *)task.response statusCode]
+s
+
