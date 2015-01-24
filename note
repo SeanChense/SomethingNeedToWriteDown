@@ -112,4 +112,4 @@ do the trick to adjust cell height.
 31. NSURLSessionDataTask 得到 http 的 statusCode
 	[(NSHTTPURLResponse *)task.response statusCode]
 s
-
+32.滑动返回 cell 依旧被选中解决方法 [链接](http://stackoverflow.com/questions/19379510/uitableviewcell-doesnt-get-deselected-when-swiping-back-quickly)
