@@ -116,3 +116,5 @@ s
 33. self.navigationController.navigationBar.translucent = NO; 会让高度产生奇怪的变化 需要研究下
 34. pod install --verbose --no-repo-update 提升速度
 35. 在一个 Cell 中放置的 UIImageView 调节成圆形的时候要 cell 的高度、UIImageView 的高度宽度三个都一样才会生效。
+36. UITableViewCell accessory chevron not right-aligning in iOS7 
+ 没有在 - (void)layoutSubviews 中设置 [super layoutSubviews]
