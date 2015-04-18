@@ -118,3 +118,4 @@ s
 35. 在一个 Cell 中放置的 UIImageView 调节成圆形的时候要 cell 的高度、UIImageView 的高度宽度三个都一样才会生效。加了自动约束的 UIImageView 需要设置成圆形，init 的时候要指定约束的宽高。
 36. UITableViewCell accessory chevron not right-aligning in iOS7 
  没有在 - (void)layoutSubviews 中设置 [super layoutSubviews]
+37. 给 cell 的 contentview 设置了背景颜色，设置了 accessory contentview 会往左边缩，用自动布局指定 contentview 和 cell 等宽
