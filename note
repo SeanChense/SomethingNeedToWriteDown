@@ -119,5 +119,4 @@ s
 36. UITableViewCell accessory chevron not right-aligning in iOS7 
  没有在 - (void)layoutSubviews 中设置 [super layoutSubviews]
 37. 给 cell 的 contentview 设置了背景颜色，设置了 accessory contentview 会往左边缩，用自动布局指定 contentview 和 cell 等宽
-38. autolayout 下的宽度和高度是在 layoutsubviews 中出来的，而不是 viewdidload
-
+38. autolayout 下的宽度和高度是在 layoutsubviews 中出来的，而不是 viewdidload 同样的情况有时候却是在 `- (void)drawRect:(CGRect)rect` 中才能设置 layser 中的 frame
