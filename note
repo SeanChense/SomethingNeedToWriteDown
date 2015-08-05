@@ -115,8 +115,10 @@ s
 32.滑动返回 cell 依旧被选中解决方法 [链接](http://stackoverflow.com/questions/19379510/uitableviewcell-doesnt-get-deselected-when-swiping-back-quickly)
 33. self.navigationController.navigationBar.translucent = NO; 会让高度产生奇怪的变化 需要研究下
 34. pod install --verbose --no-repo-update 提升速度
-35. 在一个 Cell 中放置的 UIImageView 调节成圆形的时候要 cell 的高度、UIImageView 的高度宽度三个都一样才会生效。加了自动约束的 UIImageView 需要设置成圆形，init 的时候要指定约束的宽高。
+35. 在一个 Cell 中放置的 UIImageView 调节成圆形的时候要 cell 的高度、UIImageView 的高度宽度三个都一样才会生效。加了自动约束的 UIImageView 需要设置成圆形，init 的时候要指定约束的宽高。也要在 block 中指定宽高才能显示出控件，否则宽高为零的。
 36. UITableViewCell accessory chevron not right-aligning in iOS7 
  没有在 - (void)layoutSubviews 中设置 [super layoutSubviews]
 37. 给 cell 的 contentview 设置了背景颜色，设置了 accessory contentview 会往左边缩，用自动布局指定 contentview 和 cell 等宽
 38. autolayout 下的宽度和高度是在 layoutsubviews 中出来的，而不是 viewdidload 同样的情况有时候却是在 `- (void)drawRect:(CGRect)rect` 中才能设置 layser 中的 frame
+39. NSMutableArray 如果不初始化 直接 addObject 是失败的。看起来是个很蠢的知识点。
+40. 在 AFNetworking 中 manager 的 request content type 默认情况下是 application/x-www-form-urlencoded post param 时就是表单形式的 url 拼接。self.manager.requestSerializer = [AFJSONRequestSerializer serializer]; 处理后就变成了 application/json 形式的了。
