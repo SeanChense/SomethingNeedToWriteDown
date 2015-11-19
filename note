@@ -122,3 +122,4 @@ s
 38. autolayout 下的宽度和高度是在 layoutsubviews 中出来的，而不是 viewdidload 同样的情况有时候却是在 `- (void)drawRect:(CGRect)rect` 中才能设置 layser 中的 frame
 39. NSMutableArray 如果不初始化 直接 addObject 是失败的。看起来是个很蠢的知识点。
 40. 在 AFNetworking 中 manager 的 request content type 默认情况下是 application/x-www-form-urlencoded post param 时就是表单形式的 url 拼接。self.manager.requestSerializer = [AFJSONRequestSerializer serializer]; 处理后就变成了 application/json 形式的了。
+41. UITextView 中光标不在顶部开始，需要把所在的 view automaticallyAdjustsScrollViewInsets 设为 NO
